@@ -1,0 +1,22 @@
+{
+  "name": "rcrl",
+  "version": "1.0.0",
+  "description": "back end for RCRL PROJECT APP",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":" node start.js"
+  },
+  "author": "sayed elfeki",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "engines": {
+    "node": "14.15.1",
+    "npm":"6.14.8"
+  }
+}
+
