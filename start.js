@@ -30,5 +30,5 @@ con.query('select * from sample',(er,result)=>{
 })*/
 app.listen(port,()=>{
     console.log(new Date().getDate())
-    console.log('server started')
+    console.log('server started with port '+port)
 })
